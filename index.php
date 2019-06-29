@@ -5,7 +5,7 @@ date_default_timezone_set('Europe/Moscow');
 include __DIR__.'/vendor/autoload.php';
 
 $discord = new \Discord\Discord([
-    'token' => 'NTU0MzQ1Nzc0OTk4MDkzODI1.D2bSQQ.qBztT9EkrfY_emPYPF36nwUFfxM',
+    'token' => 'Discord TOKEN HERE',
 ]);
 
 $GLOBALS['settings'] = [
